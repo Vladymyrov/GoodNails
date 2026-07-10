@@ -1,0 +1,36 @@
+name: goodnails
+description: Commercial manicure salon management application.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.7
+  drift: ^2.20.0
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.4
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  flutter_local_notifications: ^17.2.2
+  image_picker: ^1.1.2
+  file_picker: ^8.0.6
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.12
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  drift_dev: ^2.20.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
